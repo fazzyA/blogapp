@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+.blog{
+  margin: 3px;
+  padding: 2px;
+}
