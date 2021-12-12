@@ -4,6 +4,5 @@ export function inc() {
   };
 }
 
-export const dec = () => (
-    { type: "DECREMENT" }
-    );
+export const dec = () => ({ type: "DECREMENT" });
+export const arr = () => ({ type: "ARR" });

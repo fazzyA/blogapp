@@ -2,7 +2,7 @@ import React from "react";
 
 const initialState = {
   counter: 0,
-  data: [],
+  data: ["item1"],
   str: "redux class",
 };
 function myreducer(state = initialState, action) {
@@ -17,6 +17,11 @@ function myreducer(state = initialState, action) {
       return {
         ...state,
         counter: state.counter - 1,
+      };
+    case "ARR":
+      return {
+        ...state,
+        data: [...state.data, "item2"],
       };
 
     default:
