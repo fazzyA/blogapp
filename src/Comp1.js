@@ -19,7 +19,7 @@ const Comp1 = () => {
     <>
       <div>
         {/* //display */}
-        <Comp2 posts  handleDelete={handleDelete} />
+        <Comp2 posts data  handleDelete={handleDelete} />
         {/* <button onClick={()=>handleDelete(1)}>Delete</button> */}
       </div>
     </>
